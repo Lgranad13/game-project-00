@@ -1,0 +1,30 @@
+[gd_scene format=3 uid="uid://cmmu2ak2hergl"]
+
+[node name="Level_1" type="Node2D" unique_id=1486867488]
+
+[node name="Camera2D" type="Camera2D" parent="." unique_id=1008911627]
+position = Vector2(572, 326)
+
+[node name="Control" type="Control" parent="." unique_id=2089298431]
+layout_mode = 3
+anchors_preset = 0
+offset_left = 338.0
+offset_top = 221.0
+offset_right = 539.0
+offset_bottom = 352.0
+
+[node name="PanelContainer" type="PanelContainer" parent="Control" unique_id=1657643495]
+modulate = Color(0.1254902, 0.69803923, 0.3372549, 1)
+layout_mode = 0
+offset_right = 419.0
+offset_bottom = 186.0
+
+[node name="Button" type="Button" parent="Control/PanelContainer" unique_id=420525527]
+layout_mode = 2
+
+[node name="Label" type="Label" parent="Control/PanelContainer" unique_id=1575801865]
+layout_mode = 2
+text = "Hello!!!!! Testing!!!!
+Hi Thanos!
+Hi Napa!"
+horizontal_alignment = 1
